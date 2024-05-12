@@ -1,9 +1,9 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
-import css from './ContactItem.module.css'
+import css from './Contact.module.css'
 
 
-export default function ContactItem ({contact:{ id, name, number}, onDelete}){
+export default function Contact ({contact:{ id, name, number}, onDelete}){
     return (
         <div className={css.fullContact}>
           <div className={css.contactInfo}>

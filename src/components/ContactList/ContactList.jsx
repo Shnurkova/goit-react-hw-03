@@ -1,5 +1,5 @@
 import css from './ContactList.module.css';
-import ContactItem from './ContactItem';
+import Contact from './Contact';
 
 export default function ContactList({contacts, onDelete}){
 
@@ -9,7 +9,7 @@ export default function ContactList({contacts, onDelete}){
         {contacts.map((contact)=>{
                 return<li key={contact.id}>
 
-                <ContactItem contact={contact} onDelete={onDelete}/>
+                <Contact contact={contact} onDelete={onDelete}/>
                     </li>
             })
             }	
