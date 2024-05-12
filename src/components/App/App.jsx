@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import initialContacts from '../../contacts.json'
 import './App.module.css'
 import ContactForm from '../ContactForm/ContactForm.jsx'
 import SearchBox from '../SearchBox/SearchBox.jsx'
